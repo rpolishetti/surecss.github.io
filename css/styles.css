@@ -21,7 +21,16 @@ body {
   color: #fff;
 }
 
+.releases-block .card {
+  box-shadow: none;
+  border-left: 2px dotted #dadada;
+}
+
 @media screen and (max-width: 780px){
+  .logo img {
+    width: 100px;
+  }
+
   .mobile-cntr {
     width: 100%;
     padding: 20px !important;
@@ -37,5 +46,9 @@ body {
 
   hr.container {
     margin-bottom: 15px !important;
+  }
+
+  .customize-block {
+    margin-bottom: 0 !important;
   }
 }
